@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Help</title>
+  <link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+  <header>
+    <h1>Help</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href= "Index.html">Home</a></li>
+      <li><a href= "aboutus.html">About Us</a></li>
+      <li><a href = "contactus.html">Contact</a></li>
+      <li><a href= "help.html">Help</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2>Frequently Asked Questions</h2>
+    <ul>
+      <li>
+        <h3>How do I contact customer support?</h3>
+        <p>You can reach our customer support team by emailing <a href="mailto:saliyahcompany@gmail.com">saliyahcompany@gmail.com</a> or by calling our toll-free number: <a href="tel:+254720920015">0720920015</a>.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>If you have any other questions or need further assistance, please don't hesitate to contact us using the form below:</p>
+    <form action="contact_forms.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; Saliyah International Company. All rights reserved.</p>
+  </footer>
+</body>
+</html>
